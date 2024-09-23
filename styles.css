@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+  background-color: hsl(217, 54%, 11%);
+  padding-left: 490px;
+  padding-top: 90px;
+  font-family: 'Outfit', sans-serif;
+}
+.main{
+  height: 500px;
+  width: 300px;
+  border-radius: 12px;
+  background-color: hsl(216, 50%, 16%);
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.image{
+  height: 260px;
+}
+.cube{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius:8px;
+}
+.text{
+  height: 200px;
+}
+.name{
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+.about{
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+.price{
+  font-size: 14px;
+  color: hsl(178, 100%, 50%);
+}
+.time, .symbol{
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+.deadline{
+  font-size: 13px;
+  color: hsl(215, 51%, 70%);
+}
+hr{
+  height: 1px;
+  background-color: hsl(220, 2%, 32%);
+  border: none;
+  margin-bottom: 4px;
+}
+.credits{
+  display: flex;
+  align-items: center;
+}
+.pic{
+  height: 25px;
+  width: 25px;
+  border: 1px solid hsl(0, 0%, 100%);
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.credit{
+  color: hsl(215, 51%, 70%);
+  font-size: 13px;
+}
+span{
+  color: hsl(0, 0%, 100%);
+}
